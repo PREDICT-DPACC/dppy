@@ -5,7 +5,7 @@ import hashlib
 import uuid
 import mimetypes as mt
 from datetime import datetime
-from urllib import quote
+from urllib.parse import quote
 
 from dppylib.tools import database as dbtools
 from dppylib.tools import reader
